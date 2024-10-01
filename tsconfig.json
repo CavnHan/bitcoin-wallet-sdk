@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",                       /* 指定 ECMAScript 目标版本 */
+    "module": "commonjs",                 /* 指定模块系统 */
+    "esModuleInterop": true,               /* 允许 CommonJS 和 ES Modules 互操作 */
+    "forceConsistentCasingInFileNames": true, /* 强制文件名大小写一致 */
+    "strict": true,                        /* 启用所有严格类型检查选项 */
+    "skipLibCheck": true,                   /* 跳过类型库检查 */
+    "noEmitOnError": true,                 /* 如果存在错误，则不生成输出文件 */
+    "allowJs": true,
+    "outDir": "dist"/* 允许编译 JavaScript 文件 */
+  },
+  "include": [
+    "src/**/*.ts"                         /* 指定要编译的 TypeScript 文件。可以使用glob表达式 */
+  ],
+  "exclude": [
+    "node_modules",                      /* 排除 node_modules 目录 */
+    "dist"                                /* 排除输出目录 (如果存在) */
+  ]
+}
