@@ -1,7 +1,10 @@
 {
   "name": "bitcoin-wallet-sdk",
+  
   "version": "1.0.0",
+  
   "description": "",
+  
   "scripts": {
     "build": "tsc",
     "test": "jest"
